@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --bg-header: #FFFBF0;
+    --btn-color: #8BA622;
+    --fency-heading: #FA804C;
+    --title-color: #363958;
+}
+body{
+
+}
+header{
+    background-color: var(--bg-header);
+}
+.hero-section{
+    background-color: var(--bg-header);
+}
+
+.price span{
+    font-size: 48px;
+    text-transform: uppercase;
+    color: var(--fency-heading);
+    font-weight: 600;
+}
+a.btn.btn-primary {
+    float: right;
+    margin-top: 16px;
+}
+.hero-text h1{
+    font-size: 72px;
+    text-transform: uppercase;
+    color: var(--fency-heading);
+    font-weight: 600;
+}
+.hero-text h1 > span{
+    color: var(--title-color);
+}
+.hero-text p{
+    font-size: 22px;
+}
+.section-title{
+    color: var(--title-color);
+    font-size: 72px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.h-325{
+    height: 325px;
+}
